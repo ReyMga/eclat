@@ -9435,6 +9435,13 @@
   .text-center {
     text-align: center !important;
   }
+
+  .importante{
+    max-width: 1033px;
+    /* width: 50%; */
+    margin: 0 auto;
+    text-align: center;
+  }
   
   @media (min-width: 576px) {
     .text-sm-left {
@@ -9816,11 +9823,19 @@
     background-size: cover;
   }
   .page-header-preguntanos {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/preguntanos.png), no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/preguntanos.jpg), no-repeat center center;
     background-size: cover;
   }
   .page-header-menu {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/menu.jpg), no-repeat center center;
+    background-size: cover;
+  }
+  .page-header-conocenos {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/conocenos.jpg), no-repeat center center;
+    background-size: cover;
+  }
+  .page-header-entregas {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/envios.jpg), no-repeat center center;
     background-size: cover;
   }
 
