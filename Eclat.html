@@ -1,77 +1,227 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New York Cookies</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="utf-8">
+    <title>Eclat cookies</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>New York Cookies</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Acerca de</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="https://www.instagram.com" target="_blank" class="social"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com" target="_blank" class="social"><i class="fab fa-facebook-f"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home" class="intro">
-            <img src="cookies.jpg" alt="Deliciosas galletas de New York">
-            <p>¡Bienvenidos a New York Cookies! Disfruta de las mejores galletas de la ciudad.</p>
-        </section>
-        <section id="about" class="about">
-            <h2>Sobre Nosotros</h2>
-            <p>
-                Hace mucho tiempo en la tierra de las galletas, los animales no se alejaban mucho de la manada. Los camellos se quedaban con camellos. Leones con leones. Unicornios con unicornios. Día tras día, la misma rutina. Entonces, una mañana, un volcán entró en erupción lanzando chispas al cielo y enviando ríos de glaseado fluyendo por las tierras. Para la mañana siguiente, cada criatura bajo el sol estaba cubierta de lunares y brillante. Los animales pensaron, bueno esto es raro. Pero también era muy dulce y delicioso. Los animales glaseados se hicieron amigos instantáneos. Y desde ese día, la tierra de las galletas se volvió infinitamente más divertida. Los niños han estado disfrutando de las galletas de New York Cookies desde entonces.
-            </p>
-		</section>
-		<section id="productos" class="productos">
-            <h2>Conoce los productos</h2>
-            <table style="width:100%; height: 450px">
-                <tr>
-                    <td style="width:50%">
-                        <div class="creatures">
-                            <span id="Chips">Chips</span>
-                            <span id="Dark">Dark</span>
-                            <span id="Limon">Limon</span>
-                            <span id="Vegan">Vegan</span>
-                            <span id="RedVelvet">RedVelvet</span>
-                            
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="preguntanos.html">Preguntanos</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="https://wa.me/541158849980?text=Hola%20Eclat%20cookies!%20me%20encantar%C3%ADa%20hacer%20un%20pedido"> Contactanos </a>                  
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <p>Seguinos en instagram! <i class="fab fa-instagram"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">i</span> Eclat Cookies </h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="conocenos.html" class="nav-item nav-link"> Conocenos </a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Eclat Cookies</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="menu.html" class="nav-item nav-link"> Menú </a>
+                        <a href="service.html" class="nav-item nav-link"> Entregas </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3 mt-lg-5">Gallery</h1>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <i class="fa fa-circle px-3"></i>
+                <p class="m-0">Gallery</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid py-5 px-0">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <h1 class="section-title position-relative text-center mb-5"> Te invitamos a probar las mejores cookies estilo New York</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Todos</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Línea Soft</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Los clásicos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row m-0 portfolio-container">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Eclat Cookies</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Mantengamos el contacto</h5>
+                            <p class="mb-2"> Buenos Aires, Argentina</p>
+                            <p class="mb-0">+5491158849980</p>
                         </div>
-                    </td>
-					
-                    <td>
-                        <div class="carousel-container">
-                            <div class="carousel-slide">
-                                <img id="img-Chips" src="Chips.png" alt="Chips" style="display: none;">
-                                <img id="img-Dark" src="Dark.png" alt="Dark" style="display: none;">
-                                <img id="img-Limon" src="Limon.png" alt="Limon" style="display: none;">
-                                <img id="img-Vegan" src="Vegan.png" alt="Vegan" style="display: none;">
-                                <img id="img-RedVelvet" src="RedVelvet.png" alt="RedVelvet" style="display: none;">
-                                
-                            </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2"> Nuestros Horarios </h5>
+                            <p class="mb-2">Lunes – Viernes, 10AM – 8PM</p>
+                            <p class="mb-0">Sábados – Domingos: 11AM – 7PM</p>
                         </div>
-                    </td>
-                </tr>
-            </table>
-        </section>
-		<section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <p>
-                Hace mucho tiempo en la tierra de las galletas, los animales no se alejaban mucho de la manada. Los camellos se quedaban con camellos. Leones con leones. Unicornios con unicornios. Día tras día, la misma rutina. Entonces, una mañana, un volcán entró en erupción lanzando chispas al cielo y enviando ríos de glaseado fluyendo por las tierras. Para la mañana siguiente, cada criatura bajo el sol estaba cubierta de lunares y brillante. Los animales pensaron, bueno esto es raro. Pero también era muy dulce y delicioso. Los animales glaseados se hicieron amigos instantáneos. Y desde ese día, la tierra de las galletas se volvió infinitamente más divertida. Los niños han estado disfrutando de las galletas de New York Cookies desde entonces.
-            </p>
-		</section>
-    </main>
-    <footer>
-        <p>&copy; 2024 New York Cookies. Todos los derechos reservados.</p>
-    </footer>
-    <script src="script.js"></script>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy; <a href="#">EclatCookies</a>. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
+
