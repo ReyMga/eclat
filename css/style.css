@@ -161,12 +161,14 @@ i {
 	    -ms-flex-preferred-size: auto;
 	    flex-basis: auto;
 	}
+
 }
 
 
 @media (max-width: 991px){
 	#navbarSupportedContent ul li a{
 		padding: 12px 30px;
+    font-size: 14px;
 	}
 	.hori-selector{
 		margin-top: 0px;
@@ -194,6 +196,9 @@ i {
 		bottom: -25px;
 		left: -25px;
 	}
+  .logo-container{
+    display: none;
+  }
 }
  :root {
     --blue: #007bff;
@@ -3174,10 +3179,13 @@ i {
     opacity: 0;
   }
   
+
+
+@media (max-width: 768px) {
   .collapse:not(.show) {
-    display: none;
+      display: block !important;
   }
-  
+}
   .collapsing {
     position: relative;
     height: 0;
