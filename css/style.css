@@ -3169,6 +3169,7 @@ i {
     transition: opacity 0.15s linear;
   }
   
+  
   @media (prefers-reduced-motion: reduce) {
     .fade {
       transition: none;
