@@ -8,7 +8,6 @@
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
-
     <!-- Favicon -->
     <link href="img/logocookies.png" rel="icon" type="image/x-zz">
 
@@ -23,8 +22,14 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- js -->
+    <link href="menu.js" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,7 +46,7 @@
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white px-3" href="">
+                        <a class="text-white px-3" href="https://www.instagram.com/eclat_cookies?igsh=MW1ieTZ3bWhudjFuZg%3D%3D&utm_source=qr ">
                             <p>Seguinos en instagram! <i class="fab fa-instagram"></i></p>
                         </a>
                     </div>
@@ -52,33 +57,33 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
-                <a href="index.html" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 text-primary"> Eclat Cookies </h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="conocenos.html" class="nav-item nav-link"> Conocenos </a>
-                    </div>
-                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Eclat Cookies</h1>
-                    </a>
-                    <div class="navbar-nav mr-auto py-0">
-                        <a href="menu.html" class="nav-item nav-link"> Menú </a>
-                        <a href="entregas.html" class="nav-item nav-link"> Entregas </a>
-                    </div>
+   <!-- Navbar Start -->
+   <div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-primary">Eclat Cookies </h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="conocenos.html" class="nav-item nav-link"> Conocenos </a>
                 </div>
-            </nav>
-        </div>
+                <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Eclat Cookies</h1>
+                </a>
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="menu.html" class="nav-item nav-link"> Menú </a>
+                    <a href="entregas.html" class="nav-item nav-link"> Entregas </a>
+                </div>
+            </div>
+        </nav>
     </div>
-    <!-- Navbar End -->
+</div>
+<!-- Navbar End -->
 
 
     <!-- Header Start -->
@@ -92,180 +97,214 @@
             </div>
         </div>
     </div>
-    <!-- Header End -->
 
-
-
-
-<!-- Menu start -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="section-title position-relative mb-5">Armá tu caja de 4 cookies, combinalas como quieras</h1>
-            </div>
-            <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav-tab ml-auto">
+                <div class="hori-selector"></div>
+                <li class="nav-item">
+                    <a class="nav-link-cookies" href="javascript:void(0);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cookie" viewBox="0 0 16 16">
+                            <!-- Icono -->
+                        </svg> Línea Tradicional
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link-cookies" href="javascript:void(0);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cookie" viewBox="0 0 16 16">
+                            <!-- Icono -->
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+                            <!-- Icono -->
+                        </svg> Línea Soft Saludable
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="owl-carousel service-carousel">
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Dark.png" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chocoluxe $2.200 unidad – Caja de 4u. $7.500</h5>
-                            <p>Cookies de chocolate amargo  y nuez</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quiero%20comprar%20una%20cookie%20Chocoluxe" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
-                        </div>
+    </nav>
+
+    <!-- Contenedor para Línea Tradicional -->
+    <div id="linea-tradicional-menu" class="container-fluid py-5" style="display: none;">
+        <!-- Contenido de Línea Tradicional -->
+        <!-- Menu start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="section-title position-relative mb-5 cookies">Armá tu caja de 4 cookies, combinalas como quieras</h1>
+                        <p>Estas cookies se caracterizan por ser estilo new york cookies tradicionales. </p>
                     </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Chips.png" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chocochips  $2.200 unidad – Caja de 4u. $7.500</h5>
-                            <p>Clásica y deliciosa cookie de chips de chocolate</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Orella $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies con oreo, cacao y corazon de dulce de leche</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                    
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/RedVelvet.png" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Ruby Delight $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies deliciosas de red velvet y chocolate blanco</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20red%20velvet" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                       
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Pistachiova $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de pistacho y chocolate blanco</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                        
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Nutella Dream $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de cacao, nutella y chocolate amargo</p>
-                            <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Nutella%20Dream" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-6.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Coffe lover $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de café, salsa de tiramisú y chocolate amargo</p>
-                            <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Coffe%20lover" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                    <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel service-carousel">
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chocoluxe $2.200 unidad – Caja de 4u. $7.500</h5>
+                                    <p>Cookies de chocolate amargo  y nuez</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quiero%20comprar%20una%20cookie%20Chocoluxe" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chocochips  $2.200 unidad – Caja de 4u. $7.500</h5>
+                                    <p>Clásica y deliciosa cookie de chips de chocolate</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Orella $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies con oreo, cacao y corazon de dulce de leche</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                    
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Ruby Delight $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies deliciosas de red velvet y chocolate blanco</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20red%20velvet" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                       
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Pistachiova $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de pistacho y chocolate blanco</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20chocohips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                        
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-5.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Nutella Dream $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de cacao, nutella y chocolate amargo</p>
+                                    <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Nutella%20Dream" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                                </div>
+                            </div>
+                            <div class="service-item-tradicional">
+                                <div class="service-img-tradicional mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Coffe lover $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de café, salsa de tiramisú y chocolate amargo</p>
+                                    <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Coffe%20lover" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </div>
 <!-- Menu End -->
+    </div>
 
-
-<!-- Menu soft start -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="section-title position-relative mb-5">Armá tu caja de 4 cookies, combinalas como quieras</h1>
-                <p>Estas cookies se caracterizan por ser de avena y están endulzadas con edulcorante sin azúcar </p>
-            </div>
-            <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="owl-carousel service-carousel">
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Chocoluxe $2.200 unidad – Caja de 4u. $7.500</h5>
-                            <p>Cookies de chocolate amargo, nuez, avena, endulzado con edulcorante sin azúcar.</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quiero%20comprar%20una%20cookie%20Soft%20Chocoluxe" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
-                        </div>
+    <!-- Contenedor para Línea Soft Saludable -->
+    <div id="linea-soft-menu"  class="container-fluid py-5" style="display: none;">
+        <!-- Contenido de Línea Soft Saludable -->
+         <!-- Menu soft start -->
+         <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="section-title position-relative mb-5 cookies">Armá tu caja de 4 cookies, combinalas como quieras</h1>
+                        <p>Estas cookies se caracterizan por ser de avena, endulzadas con edulcorante. </p>
                     </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Nutcracker chips  $2.200 unidad – Caja de 4u. $7.500</h5>
-                            <p>Clásica y deliciosa cookie de chips de chocolate</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20Soft%20Nutcracker%20chips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
-                        </div>
+                    <div class="logo-container">
+                        <img src="./img/logo-healthy.png" alt="logo" class="logohealthy">
                     </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-4.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Apple Cinnamon $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies con oreo, cacao y corazon de dulce de leche</p>
-                            <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20Soft%20Apple%20Cinnamon" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                    
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Nutella Dream $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de cacao, nutella y chocolate amargo</p>
-                            <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Nutella%20Dream" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-5.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Peanut Crunch $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de pasta de maní y chocolate amargo</p>
-                            <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Peanut%20Crunch" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/portfolio-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Banana Crunch $2.200 unidad – Caja de 4u. $7.500 </h5>
-                            <p>Cookies de pasta de maní y chocolate amargo</p>
-                            <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Banana%20Crunch" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                    <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel service-carousel">
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-13.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Chocoluxe $2.200 unidad – Caja de 4u. $7.500</h5>
+                                    <p>Cookies de chocolate amargo, nuez, avena, endulzado con edulcorante sin azúcar.</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20quiero%20comprar%20una%20cookie%20Soft%20Chocoluxe" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
+                                </div>
+                            </div>
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-11.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Nutcracker chips  $2.200 unidad – Caja de 4u. $7.500</h5>
+                                    <p>Clásica y deliciosa cookie de chips de chocolate</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20de%20Soft%20Nutcracker%20chips" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>
+                                </div>
+                            </div>
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-15.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Apple Cinnamon $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies con oreo, cacao y corazon de dulce de leche</p>
+                                    <a href="https://wa.me/541158849980?text=Hola%20EclatCookies!%20Quiero%20comprar%20una%20cookie%20Soft%20Apple%20Cinnamon" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                    
+                                </div>
+                            </div>
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="./img/service-16.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Peanut Crunch $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de pasta de maní y chocolate amargo</p>
+                                    <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Peanut%20Crunch" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                                </div>
+                            </div>
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-12.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Banana Crunch $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de pasta de maní y chocolate amargo</p>
+                                    <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Banana%20Crunch" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                                </div>
+                            </div>
+                            <div class="service-item-healthy">
+                                <div class="service-img-healthy mx-auto">
+                                    <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-12.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                    <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Soft Vainilla $2.200 unidad – Caja de 4u. $7.500 </h5>
+                                    <p>Cookies de pasta de maní y chocolate amargo</p>
+                                    <a href="https://wa.me/541518849980?text=Hola%20EclatCookies!%20quisiera%20encargar%20cookies%20Soft%20Banana%20Crunch" class="border-bottom border-secondary text-decoration-none text-secondary">Quiero comprar esta</a>                      
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </div>
 <!-- Menu soft End -->
+    </div>
+    <!-- Header End -->
+
 
      <!-- Footer Start -->
      <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
@@ -288,8 +327,8 @@
                         </div>
                         <div class="col-sm-6 text-center text-sm-left">
                             <h5 class="font-weight-bold mb-2"> Nuestros Horarios </h5>
-                            <p class="mb-2">Lunes – Viernes, 10AM – 8PM</p>
-                            <p class="mb-0">Sábados – Domingos: 11AM – 7PM</p>
+                            <p class="mb-2">Lunes – Viernes 10AM – 18PM</p>
+                            <p class="mb-0">Sábados – Domingos: 11AM – 18PM</p>
                         </div>
                     </div>
                 </div>
@@ -303,8 +342,9 @@
     <!-- Footer End -->
 
 
+
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -313,8 +353,6 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
@@ -322,6 +360,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="menu.js"></script>
+
+    <!-- Scripts de jQuery y Bootstrap al final del body -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
