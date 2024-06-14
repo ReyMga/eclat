@@ -166,6 +166,9 @@ i {
 
 
 @media (max-width: 991px){
+  .w-100{
+    height: 254px!important;
+  }
 	#navbarSupportedContent ul li a{
 		padding: 12px 30px;
     font-size: 14px;
@@ -649,6 +652,7 @@ i {
     .display-3 {
       font-size: calc(1.575rem + 3.9vw) ;
     }
+    
   }
   
   .display-4 {
@@ -3183,7 +3187,7 @@ i {
 
 
 @media (max-width: 768px) {
-  .collapse:not(.show) {
+  .collapsecollapsecookie:not(.show) {
       display: block !important;
   }
 }
@@ -7610,6 +7614,7 @@ i {
     .float-xl-none {
       float: none !important;
     }
+
   }
   
   .user-select-all {
@@ -10399,6 +10404,12 @@ i {
   .service-item-tradicional .bg-light, .service-item-healthy .bg-light {
       margin-top: 0;
   }
+
+  .pb-5,
+  .py-5 {
+    padding-bottom: 0rem !important;
+  }
+  
 }
 
 /* Estilos para tablets */
@@ -10464,8 +10475,6 @@ i {
       margin-top: -75px;
   }
 }
-
-  
   .team:hover .team-social {
     left: 0;
   }
