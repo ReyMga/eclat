@@ -10344,7 +10344,11 @@ i {
     transition: .5s;
     z-index: 2;
   }
-  
+  .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 24px; /* Ajusta el tamaño del icono según tus necesidades */
+    margin: auto;
+}
   .team-item:hover .team-img::after {
     top: -3px;
     right: -3px;
