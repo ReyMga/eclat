@@ -173,6 +173,7 @@ i {
 		padding: 12px 30px;
     font-size: 14px;
 	}
+
 	.hori-selector{
 		margin-top: 0px;
 		margin-left: 10px;
@@ -10373,6 +10374,11 @@ i {
 @media (max-width: 576px) {
   .page-header-menu {
       margin-bottom: 50px;
+  }
+
+
+  .navbar-nav-tab{
+    display: flex!important;
   }
 
   .page-header-menu h1 {
